@@ -10,6 +10,27 @@
 
 Dos tool with multiple vectors available for stress testing internet services.
 
+## Installation 
+
+sudo apt-get -y install build-essential cmake libssl-dev pkgconf
+
+git clone https://github.com/sepehrdaddev/Xerxes
+
+cd Xerxes
+
+mkdir build
+
+cd build
+
+cmake ..
+
+make
+
+cd bin
+
+./Xerxes
+
+
 ## Usage
 
 ```
